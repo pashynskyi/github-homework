@@ -1,0 +1,53 @@
+html,
+      body {
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+      }
+      .center-block {
+        background: url("https://i.pinimg.com/originals/e6/17/2a/e6172a614393dd8ac287062d40aba4fa.jpg");
+        border: 3px solid red;
+        box-sizing: border-box;
+        width: 500px;
+        margin: 10px auto;
+        padding: 10px;
+      }
+      textarea {
+        margin: 5px;
+        width: 74px;
+        height: 46px;
+      }
+      img {
+        width: 300px;
+      }
+      button {
+        margin: 10px;
+        padding: 5px 20px;
+        background: white;
+        color: black;
+        border: 2px solid black;
+        border-radius: 5px;
+      }
+      button.btn-yellow {
+        background: yellow;
+      }
+      button.btn-green {
+        background: green;
+        color: white;
+      }
+      button:hover {
+        background: red;
+        color: white;
+      }
+      button:disabled {
+        background: grey;
+        color: white;
+      }
+      button:focus {
+          background:rgb(0, 26, 255);
+          color:white;
+      }
+     
+
+
+        
