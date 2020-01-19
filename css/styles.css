@@ -19,6 +19,7 @@ html,
       }
       img {
         width: 300px;
+
       }
       button {
         margin: 10px;
@@ -46,6 +47,9 @@ html,
       button:focus {
           background:rgb(0, 26, 255);
           color:white;
+      }
+      .div-img {
+        margin: 15px;
       }
      
 
